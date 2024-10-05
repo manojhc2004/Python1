@@ -19,3 +19,28 @@ elif b=="mangaluru":
 else:
     print("please entre a above distics")
     
+print("THE GANGSTAS ESPORTS PLAYERS AND ROLES")
+a = input("Do you see,Yes,No")
+if a=="Yes":
+    print("Devil,Igl,Valtxd,Neyo")
+else:
+    print("THANK YOU")
+b = input("Do you want to see the roles of players,\nYes,No")
+if b=="yes":
+    print("Devil,Igl,Valtxd,Neyo, ")
+else:
+    print("THANK YOU")
+c =input("PLEASE TYPE A NAME PLAYER,\nDevil,IGL,Valtxd,Neyo")
+if c=="Devil":
+    print("He is IGL and Enrty fragg")
+elif c=="IGL":
+    print("He is IGL and free man")
+elif c=="Valtxd":
+    print("He is Entry fragger")
+elif c=="Neyo":
+    print("He is also entrt fragg")
+else:
+    ("invaild player name please enter a vaild player")
+
+
+
