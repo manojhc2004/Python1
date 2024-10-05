@@ -1,4 +1,4 @@
-a=input("do you want see what are types of distic in karnataka,yes,no")
+a=input("do you want see district in karnataka,yes,no")
 karnataka = ["Hassan","bengaluru","mysuru","kolara","mangaluru"]
 if a=="yes":
     print(karnataka)
