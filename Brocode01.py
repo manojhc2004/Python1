@@ -43,5 +43,14 @@ elif c=="Neyo":
 else:
     ("invaild player name please enter a vaild player")
 
-
-
+#finding max number
+number = int(input("ENTER A FIRST NUMBER"))
+number1 = int(input("ENTER A SECOND NUMBER"))
+number02 = int(input("ENTER A THIRD NUMBER"))
+if number1<number and number02<number:
+    print("max is",{number})
+elif number<number1 and number02<number1:
+    print("max is",{number1})
+elif number<number02 and number1<number02:
+    print("max",{number02})
+   
