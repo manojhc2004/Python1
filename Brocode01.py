@@ -52,5 +52,16 @@ if number1<number and number02<number:
 elif number<number1 and number02<number1:
     print("max is",{number1})
 elif number<number02 and number1<number02:
-    print("max",{number02})
-   
+    print("max is ",{number02})
+
+#number guessing game:
+secret_code =77
+guess = int(input("ENTER A NUMBER TO FIND SECRET NUMBER  >>>"))
+if guess==secret_code:
+  print("You guessed it right")
+elif guess<secret_code:
+  print("you guessed it to low")
+elif guess>secret_code:
+  print("you guessed it too high")
+else:
+  print("invalid input")
