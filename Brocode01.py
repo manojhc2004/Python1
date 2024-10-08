@@ -65,3 +65,19 @@ elif guess>secret_code:
   print("you guessed it too high")
 else:
   print("invalid input")
+
+# simple caluculator
+print("this is a simple calculator")
+user = input("ENTER A OPERATER,+,-,*,/:")
+num01 = int(input("ENTER A FIRST 1ST NUMBER :"))
+num02 = int(input("ENTER A SECOND 2ND NUMBER :"))
+if user=="+":
+  print(num01+num02)
+elif user=="-":
+  print(num01-num02)
+elif user=="*":
+  print(num01*num02)
+elif user=="/":
+  print(num01/num02)
+else:
+  print("invalid input",{num01,num02,user})
