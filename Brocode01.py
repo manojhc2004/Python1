@@ -81,3 +81,14 @@ elif user=="/":
   print(num01/num02)
 else:
   print("invalid input",{num01,num02,user})
+
+# FORM DETAILS 
+print("FILL YOUR DETAILS AND SIGHN UP")
+name=input("ENTER YOUR NAME :")
+age=input("ENTER YOUR AGE :")
+gender=input("ENTER YOUR GENDER,MALE,FEMALE :")
+if age<=18:
+  print("YOU ARE NOT ELIGIBLE FOR TO SIGN UP")
+else:
+  print("YOU ARE ELIGIBLE FOR TO SIGN UP")
+print("YOUR DETAILS ARE HERE,YOUR NAME IS {name},YOUR AGE IS ,{age},GENDER,{gender}")
