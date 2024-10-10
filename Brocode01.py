@@ -92,3 +92,9 @@ if age<=18:
 else:
   print("YOU ARE ELIGIBLE FOR TO SIGN UP")
 print("YOUR DETAILS ARE HERE,YOUR NAME IS {name},YOUR AGE IS ,{age},GENDER,{gender}")
+
+
+# tables:
+usr = int(input("enter a number :"))
+for i in range(1,11):
+  print(f" {usr}, X {i} = {usr*i}")
