@@ -98,3 +98,24 @@ print("YOUR DETAILS ARE HERE,YOUR NAME IS {name},YOUR AGE IS ,{age},GENDER,{gend
 usr = int(input("enter a number :"))
 for i in range(1,11):
   print(f" {usr}, X {i} = {usr*i}")
+
+#ATM MACHINE
+user_pin = int(input("PLEASE ENTER AGAIN PIN CODE >>>> :"))
+user_cash = 100000
+print("CREADIT OR DEPOSITE,C/D")
+user_choice = input("PLEASE ENTER ,CREADIT/DEPOSITE :")
+if user_choice=="CREADIT":
+  print("PLEASE ENTER AMOUNT/CASH BELOW")
+  amount = int(input("ENTER NUMBER :"))
+  print("PLEASE WAIT FOR YOUR TRANSATION")
+  c_finall = user_cash-amount
+  print("YOUR BALACE IS",c_finall)
+  if user_choice=="DEPOSITE":
+    print("PLEASE ENTER DEPOSITE AMOUNT BELOW")
+    d_amount = int(input("ENTER HERE"))
+    d_finall = user_cash+d_amount
+    print(f"YOUR BALANCE IS {d_finall}")
+  else:
+    print("YOU ARE ENTERED WRONG ")
+else:
+  print("YOU ARE ENTERED WRONG")
