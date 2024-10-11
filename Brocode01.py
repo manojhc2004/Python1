@@ -119,3 +119,30 @@ if user_choice=="CREADIT":
     print("YOU ARE ENTERED WRONG ")
 else:
   print("YOU ARE ENTERED WRONG")
+    
+#ATM MACHINE WITH DRAW ONLY
+print("WELCOME TO THE ATM")
+user_pinis = 776080
+user_balance = (100000)
+use = int(input("ENTER A PIN :"))
+if use == user_pinis:
+  print("<<<PIN IS CORRECT>>>")
+else:
+  print("YOUR PIN IS INCORRECT") 
+home_page = input("PLEASE ENTER FROM THE FOLLOWING OPTIONS >>>,WITHDRAW, DEPOSIT ,BAL ")
+if home_page == "WITHDRAW":
+  us=input("YOU ARE SELECTED WITH DRAW,YES :")
+  if us == "YES":
+    w_d = int(input("ENTER A AMOUNT TO WITH DRAW :")) 
+    cal = user_balance - w_d
+    print("<<YOUR AMOUNT SUCCESSFULLY WITH DRAW YOUR BALANCE IS>>",cal)
+  else:
+    print("INVAILED")
+else:
+  print("INVALIED")
+             
+        
+
+
+
+  
