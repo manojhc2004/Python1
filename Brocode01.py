@@ -145,8 +145,19 @@ else:
 numbers =144,33,22,65,78,92,101
 2 numbers_sort = (sorted (numbers) )
 print(numbers_sort)
-             
-        
+
+#WORK SCHEDULE
+employ = input("ENTER A TIME :")
+if employ == "8":
+  print("WORK START NOW")
+elif employ == "11":
+  print("TEA BREAK")
+elif employ == "2":
+  print("LAUNCH TIME")
+elif employ == "5":
+  print("WORK END YOU CAN LEAVE NOW")
+else:
+  print("INVALID ENTER")        
 
 
 
