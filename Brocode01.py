@@ -139,7 +139,12 @@ if home_page == "WITHDRAW":
   else:
     print("INVAILED")
 else:
-  print("INVALIED")
+  print("INVALIED") 
+    
+#sorting number
+numbers =144,33,22,65,78,92,101
+2 numbers_sort = (sorted (numbers) )
+print(numbers_sort)
              
         
 
