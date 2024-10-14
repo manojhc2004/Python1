@@ -157,7 +157,19 @@ elif employ == "2":
 elif employ == "5":
   print("WORK END YOU CAN LEAVE NOW")
 else:
-  print("INVALID ENTER")        
+  print("INVALID ENTER")       
+
+#schlorship
+student = input("Enter your name :")
+age = int(input("Enter your age"))
+income = int(input("Enter your annual income"))
+amount = 50000
+if income<=amount:
+  print("your are eligible for schlorship and your schlorship ",income*0.5)
+elif income>amount:
+  print("your are eligible for schlorship and your schlorship ",income*0.4)
+else:
+  print("invalid",age,income)
 
 
 
