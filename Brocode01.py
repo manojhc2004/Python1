@@ -172,5 +172,24 @@ else:
   print("invalid",age,income)
 
 
+#GROCERYES 
+items = [{"apple":"10rs","orange":"5rs","banana":"6rs"}]
+print("WELCOME TO THE MA GROCERYES ")
+for fruits in items:
+  print(fruits)
+  for frut in fruits:
+    print(frut ,end=" ")
+while True:
+  user = input("\nEnter the fruit you want to buy (E for EXIT):")
+  if user.upper() == "E":
+    break
+  elif not user==items:
+    print("invalid enter")
+  else:
+    ("\n enter your fruits name")
+
+for user in items:
+  print(user)
+
 
   
