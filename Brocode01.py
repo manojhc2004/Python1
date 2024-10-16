@@ -191,5 +191,27 @@ while True:
 for user in items:
   print(user)
 
+#food counter
+user=[]
+items = ["popcorn : 20rs"
+         ,"soda :10",
+         "juice : 15",
+         "water : 5rs",
+         "chips :10rs"]
+print(items)
+
+while True:
+    cus = input("<<<Select the items you want to buy and (e for exit) :").lower()
+    if cus == "e":
+      print("\n<<<THANK YOU>>>")
+    elif cus != items:
+      print("your items is not available")
+      print("<<PLEASE SELECT THE ITEMS FORM THE LIST>>")
+    else:
+      user.append(cus)
+      print(user)
+    for last in user:
+      print(last)
+  
 
   
