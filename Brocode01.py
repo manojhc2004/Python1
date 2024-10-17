@@ -216,4 +216,21 @@ while True:
     print(f"{user} YOU ORDER","THANK YOU")
   else:
     print("invalid enter")
-  
+
+#ROCK PAPER SCISSOR
+import random
+print("this is a rock paper scissor game")
+player =input("enter your choice ,rock,paper,scissor :")
+computer =("rock","paper","scissor")
+ch = random.choice(computer)
+print(f"Computer select {ch}")
+if player == ch:
+  print("it is a tie")
+elif player == "rock" and ch == "scissor":
+  print("you win")
+elif player == "paper" and ch == "rock":
+  print("you win")
+elif player == "scissor" and ch == "paper":
+  print("you win")
+else:
+  print("you lose")  
