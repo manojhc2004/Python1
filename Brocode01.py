@@ -234,3 +234,24 @@ elif player == "scissor" and ch == "paper":
   print("you win")
 else:
   print("you lose")  
+#ROCK PAPER SCISSOR with WHILE LOOP
+import random
+print("this is a rock paper scissor game")
+while True:
+  player =input("enter your choice ,rock,paper,scissor :")
+  computer =("rock","paper","scissor")
+  ch = random.choice(computer)
+  print(f"Computer select {ch}")
+  if player == ch:
+   print("it is a tie")
+  
+  elif player == "rock" and ch == "scissor":
+   print("you win")
+  elif player == "paper" and ch == "rock":
+   print("you win")
+  elif player == "scissor" and ch == "paper":
+   print("you win")
+  elif not player in "rock" or "paper" or "scissor":
+    print("invalid input or enter")
+  else:
+   print("you lose")  
