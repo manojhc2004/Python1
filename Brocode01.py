@@ -255,3 +255,63 @@ while True:
     print("invalid input or enter")
   else:
    print("you lose")  
+
+#new p form chart gpt
+
+Here's a simple Python program that acts as a food counter. It allows you to add food items, specify their quantities, and then display the total number of each item added.
+
+# Dictionary to store food items and their quantities
+food_counter = {}
+
+# Function to add food to the counter
+def add_food(item, quantity):
+    if item in food_counter:
+        food_counter[item] += quantity
+    else:
+        food_counter[item] = quantity
+
+# Function to display the total food items and their quantities
+def display_food_counter():
+    print("\nFood Counter:")
+    if not food_counter:
+        print("No items added yet.")
+    else:
+        for item, quantity in food_counter.items():
+            print(f"{item}: {quantity}")
+
+# Main program loop
+while True:
+    print("\nFood Counter Menu:")
+    print("1. Add food item")
+    print("2. Display food counter")
+    print("3. Exit")
+    
+    choice = input("Enter your choice (1/2/3): ")
+
+    if choice == '1':
+        item = input("Enter the food item name: ")
+        quantity = int(input(f"Enter the quantity of {item}: "))
+        add_food(item, quantity)
+        print(f"Added {quantity} {item}(s).")
+    elif choice == '2':
+        display_food_counter()
+    elif choice == '3':
+        print("Exiting the program.")
+        break
+    else:
+        print("Invalid choice! Please try again.")
+
+How it works:
+
+1. Add food item: You can add an item with a quantity to the food_counter dictionary.
+
+
+2. Display food counter: Lists all the food items and their quantities.
+
+
+3. Exit: Ends the program.
+
+
+
+You can modify this program to suit your needs by adding features like removing items, resetting the counter, etc.
+
