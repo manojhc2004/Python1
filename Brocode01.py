@@ -315,3 +315,28 @@ How it works:
 
 You can modify this program to suit your needs by adding features like removing items, resetting the counter, etc.
 
+#caluclator using def func
+def add(x,y):
+  a = x+y
+  print(a)
+def multi(x,y):
+  a = x*y
+  print(a)
+def sub(x,y):
+  a = x-y
+  print(a)
+def divi(x,y):
+  a = x/y
+  print(a)
+def remin(x,y):
+  a = x%y
+  print(a)
+def power(x,y):
+  a = x**y
+  print(a)
+add(20,10)
+multi(20,10)
+sub(20,10)
+divi(20,10)
+remin(20,10)
+power(20,10)
