@@ -340,3 +340,15 @@ sub(20,10)
 divi(20,10)
 remin(20,10)
 power(20,10)
+
+#TIMER USING IMPORT FUNCTION AND DEF FUN
+import time
+def mytime(start,end):
+  for x in range(start,end):
+    time.sleep(1)
+    print(x)
+  print("DONE")
+    
+mytime(0,10)
+
+
