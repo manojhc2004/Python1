@@ -351,4 +351,21 @@ def mytime(start,end):
     
 mytime(0,10)
 
+#nam hassan metro
+print("WELCOME TO THE NAM HASSAN METRO")
+prices = [28,38,45,55]
+a = ("dairy_circle,kuvempurnagar,mg_road,dasara_kopalu")
+for areas in a:
+  print(areas,end="")
+user_side = input("\nselect the side you want to go (to_wards_dasara_kopalu,to_wards_dairy_circle. :").lower()
+if user_side=="to_wards_dasara_kopalu":
+  b=input("select the area you want to go(kuvempurnagar,mg road,dasata kopalu)")
+  if b=="kuvempurnagar"or"mg road"or"dasata kopalu":
+    print("you have selected",b)
+  else("invalid selete")
+
+elif user_side=="to_wards_dairy_circle":
+  c=input("select the area you want to go(dairy_circle,kuvempurnagar,mg_road,)")
+  print("you have selected",c)
+         
 
