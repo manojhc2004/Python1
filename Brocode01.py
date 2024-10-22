@@ -367,5 +367,28 @@ if user_side=="to_wards_dasara_kopalu":
 elif user_side=="to_wards_dairy_circle":
   c=input("select the area you want to go(dairy_circle,kuvempurnagar,mg_road,)")
   print("you have selected",c)
-         
+
+#ESHOP HASSAN
+print("WELCOME TO ESHOP")
+print("<<<<<<<>>>>>>>>>")
+hsnpin=573201
+grociers={"carrot":"20","potato":"12","tomato":"15","bellpepper":"29","onion":"15","brocoil":"30"}
+user = input("select the option" + "\n"+"login""\n"+"skip"+"\n:").lower()
+if user =="login":
+  log = input("enter your name :")
+  pin = int(input("enter your pincode :"))
+  if pin ==hsnpin:
+    for values in grociers:
+      print(values,end=" ")
+    print(f"login successful\n {grociers},NAME OF ITEMS AND PRICES")
+  else:
+    ("invalid enter")
+elif user =="skip":
+  print(f"login successful\n {grociers},NAME OF ITEMS AND PRICES")
+  for values in grociers:
+      print(values,end=" ")
+else:
+  ("invalid enter")
+  
+           
 
