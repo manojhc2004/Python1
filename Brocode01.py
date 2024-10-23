@@ -389,6 +389,28 @@ elif user =="skip":
       print(values,end=" ")
 else:
   ("invalid enter")
+
+Here’s a Python program to calculate the factorial of a number using a recursive function:
+
+# Function to calculate factorial
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+# Input from the user
+num = int(input("Enter a number: "))
+
+# Check if the input is a valid non-negative integer
+if num < 0:
+    print("Factorial is not defined for negative numbers.")
+else:
+    print(f"The factorial of {num} is {factorial(num)}")
+
+This program takes a number as input and calculates its factorial recursively. It also checks to ensure the input is a non-negative integer.
+
+
   
            
 
