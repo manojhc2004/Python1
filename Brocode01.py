@@ -410,6 +410,32 @@ else:
 
 This program takes a number as input and calculates its factorial recursively. It also checks to ensure the input is a non-negative integer.
 
+This program takes a number as input and calculates its factorial recursively. It also checks to ensure the input is a non-negative integer.
+In Python, you can add natural numbers using basic arithmetic operators. Here's a simple example of how to add two or more natural numbers:
+
+# Example of adding two natural numbers
+num1 = 10
+num2 = 15
+
+# Adding the numbers
+result = num1 + num2
+
+# Displaying the result
+print("The sum is:", result)
+
+For adding multiple natural numbers, you can use a list and the sum() function:
+
+# List of natural numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Adding the numbers
+result = sum(numbers)
+
+# Displaying the result
+print("The sum is:", result)
+
+In both examples, you will get the sum of the natural numbers.
+
 
   
            
