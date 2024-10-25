@@ -436,6 +436,13 @@ print("The sum is:", result)
 
 In both examples, you will get the sum of the natural numbers.
 
+#list comparision
+students_marks = []
+user = int(input("enter your marks :"))
+students_marks.append(user)
+marks=[passes for passes in students_marks if passes>=35 ]
+print(marks)
+
 
   
            
