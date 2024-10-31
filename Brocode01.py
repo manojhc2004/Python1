@@ -443,6 +443,45 @@ students_marks.append(user)
 marks=[passes for passes in students_marks if passes>=35 ]
 print(marks)
 
+#upgraded ATM MACHINE
+print("Welcome To The ATM Machine") 
+print("****************************")
+  
+
+is_runing = True
+while is_runing:
+  user =input("1.Balance\n2.Withdraw\n3.Deposit\n4.Exit\nEnter the choices  :")
+  print("****************************")
+
+  user_bal = 10000
+  if user == "1":
+    print("Your Balance is :",user_bal)
+    print("*****************************")
+    break
+  elif user == "2":
+    withd = int(input("Enter the amount to withdraw :"))
+    if user_bal<withd or withd<0:
+      print("Insuficient Balance or Invalid Enter")
+      print("*****************************")
+      break
+    cal2 = user_bal - withd
+    print(f"Your Balance is :{cal2}")
+    print("*****************************")
+    
+  elif user == "3":
+    dep = int(input("Enter The Amount To Deposit : "))
+    cal2 = user_bal + dep
+    print("Your Balance is :",cal2)
+    print("*****************************")
+  else :
+    if user == "4":
+      print("Thank You ")
+      print("*****************************")
+      break
+    else:
+      print("Invalid Enter")
+      print("*****************************")
+      
 
   
            
