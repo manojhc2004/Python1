@@ -26,3 +26,7 @@ print(l1_list_sort)
 l1_list_reverse = [1,3,5,7,9,39,40,50,60,70]
 l1_list_reverse .reverse()
 print(l1_list_reverse)
+#append
+l1_append = [1,3,4,7,8,9,10,55]
+l1_append.append(60)
+print(l1_append)
