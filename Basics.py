@@ -49,3 +49,8 @@ print(lits_of_insert_func)
 #Class finding
 what_class = (22,55,66,333,65)
 print(type(what_class))
+
+#Finding Index position 
+finding_index_position_ = (22,55,66,333,65)
+a = finding_index_position_.index(55)
+print(a)
