@@ -30,3 +30,8 @@ print(l1_list_reverse)
 l1_append = [1,3,4,7,8,9,10,55]
 l1_append.append(60)
 print(l1_append)
+
+#Pop func
+Poplistt_pop_func = [22,55,39,84,82,99]
+listt_pop_func.pop(3)
+print(listt_pop_func)
