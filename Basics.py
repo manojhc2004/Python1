@@ -32,6 +32,6 @@ l1_append.append(60)
 print(l1_append)
 
 #Pop func
-Poplistt_pop_func = [22,55,39,84,82,99]
+listt_pop_func = [22,55,39,84,82,99]
 listt_pop_func.pop(3)
 print(listt_pop_func)
