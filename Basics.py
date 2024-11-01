@@ -6,13 +6,13 @@ print(f"Your Name is {name}")
 #replacing the name using replace fucntion
 
 #example 1
-example = '''Dear Name ,You are selected!,Date'''
-print(example.replace("Dear Name", "Manu").replace("Date", "12/1/2023"))
+example1 = '''Dear Name ,You are selected!,Date'''
+print(example1.replace("Dear Name", "Manu").replace("Date", "12/1/2023"))
 
 #exmaple 2
-name = "Hello Bro   My Name  is  Power Star"
-print(name.replace("  "," "))
+example2 = "Hello Bro   My Name  is  Power Star"
+print(example2.replace("  "," "))
       
 #Finding a letter s and double space using "find" func
-name = "HELLO BRO THIS IS  PYTHON"
-print(name.find("  "))
+example3_fing_func = "HELLO BRO THIS IS  PYTHON"
+print(example3_fing_func.find("  "))
