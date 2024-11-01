@@ -18,11 +18,11 @@ example3_fing_func = "HELLO BRO THIS IS  PYTHON"
 print(example3_fing_func.find("  "))
 
 #List sort
-l1 = [1,3,4,5,6,7,8,9,10]
-l1.sort()
-print(l1)
+l1_list_sort = [1,3,4,5,6,7,8,9,10]
+l1_list_sort.sort()
+print(l1_list_sort)
 
 #List reverse
-l1 = [1,3,5,7,9,39,40,50,60,70]
-l1.reverse()
-print(l1)
+l1_list_reverse = [1,3,5,7,9,39,40,50,60,70]
+l1_list_reverse .reverse()
+print(l1_list_reverse)
