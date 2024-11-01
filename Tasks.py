@@ -34,7 +34,10 @@ students.sort()
 print(students)
 
 #Write a program to sum a list with 5 numbers
-
 number_in_list = [10,30,50,60,80]
 print(sum(number_in_list))
 
+#Write a program, to count the numbet of zero in the follwing list.
+numbers_in_list = [4,6,77,0,9,7,0,56,0,80,0]
+find_zero = numbers_in_list.count(0)
+print(find_zero)
