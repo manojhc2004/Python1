@@ -32,3 +32,9 @@ st6 = int(input("Enter the marks student 6 :"))
 students.append(st6)
 students.sort()
 print(students)
+
+#Write a program to sum a list with 5 numbers
+
+number_in_list = [10,30,50,60,80]
+print(sum(number_in_list))
+
