@@ -21,3 +21,8 @@ print(example3_fing_func.find("  "))
 l1 = [1,3,4,5,6,7,8,9,10]
 l1.sort()
 print(l1)
+
+#List reverse
+l1 = [1,3,5,7,9,39,40,50,60,70]
+l1.reverse()
+print(l1)
