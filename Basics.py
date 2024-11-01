@@ -35,3 +35,13 @@ print(l1_append)
 listt_pop_func = [22,55,39,84,82,99]
 listt_pop_func.pop(3)
 print(listt_pop_func)
+
+#Remove func
+litts_remove_func = [ 55,66,45,89,70,67,69]
+litts_remove_func.remove(67)
+print(litts_remove_func)
+
+#Insert func
+lits_of_insert_func = [44,33,22,56,76,89,78,90,34]
+lits_of_insert_func.insert(5,100)
+print(lits_of_insert_func)
