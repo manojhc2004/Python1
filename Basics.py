@@ -16,3 +16,8 @@ print(example2.replace("  "," "))
 #Finding a letter s and double space using "find" func
 example3_fing_func = "HELLO BRO THIS IS  PYTHON"
 print(example3_fing_func.find("  "))
+
+#List and list function
+l1 = [1,3,4,5,6,7,8,9,10]
+l1.sort()
+print(l1)
