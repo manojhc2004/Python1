@@ -52,8 +52,8 @@ print(type(what_class))
 
 #Finding Index position 
 finding_index_position_ = (22,55,66,333,65)
-a = finding_index_position_.index(55)
-print(a)
+a_finding_index_position = finding_index_position_.index(55)
+print(a_finding_index_position_)
 
 #count the numbet of zero in the follwing list.
 count_numbers_in_list = [4,6,77,0,9,7,0,56,0,80,0]
