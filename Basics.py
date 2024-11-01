@@ -45,3 +45,7 @@ print(litts_remove_func)
 lits_of_insert_func = [44,33,22,56,76,89,78,90,34]
 lits_of_insert_func.insert(5,100)
 print(lits_of_insert_func)
+
+#Class finding
+what_class = (22,55,66,333,65)
+print(type(what_class))
