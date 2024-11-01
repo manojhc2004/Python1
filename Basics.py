@@ -55,7 +55,7 @@ finding_index_position_ = (22,55,66,333,65)
 a = finding_index_position_.index(55)
 print(a)
 
-#Write a program, to count the numbet of zero in the follwing list.
-numbers_in_list = [4,6,77,0,9,7,0,56,0,80,0]
-find_zero = numbers_in_list.count(0)
+#count the numbet of zero in the follwing list.
+count_numbers_in_list = [4,6,77,0,9,7,0,56,0,80,0]
+find_zero = count_numbers_in_list.count(0)
 print(find_zero)
