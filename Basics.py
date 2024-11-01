@@ -14,7 +14,7 @@ example2 = "Hello Bro   My Name  is  Power Star"
 print(example2.replace("  "," "))
       
 #Finding a letter s and double space using "find" func
-example3_fing_func = "HELLO BRO THIS IS  PYTHON"
+example3_find_func = "HELLO BRO THIS IS  PYTHON"
 print(example3_fing_func.find("  "))
 
 #List sort
