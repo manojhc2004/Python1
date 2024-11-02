@@ -176,3 +176,13 @@ while(i<=n):
   sum = sum + i
   i = i+1
 print(sum)
+
+#Finding a greatest number of 3 variables using Def 
+def func(a,b,c):
+  if a>b and a>c:
+    return a
+  elif b>a and b>c:
+    return b
+  else:
+    return c
+print(func(1,2,3))
