@@ -98,4 +98,10 @@ while(while_Loop<6):
 for_loops =0
 for x in range(10,101,5):
   print(x)
-  
+
+#for loop with else 
+lists = ["manoj","anvi","anna"]
+for i in lists:
+  print(i,end=" ")
+else:
+  print("\nDone")
