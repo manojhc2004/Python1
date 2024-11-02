@@ -130,3 +130,25 @@ if(user in names_in_list):
   print("Your Name In The List")
 else:
   print("Your Name Not In The List")
+
+#Write a program to caluclate the grade of a student from his marks from the following scheme:
+#90-100=except
+#80-90=A
+#70-80=B
+#60-70=C
+#50-60=D
+#<50=f
+
+student = int(input("Enter Your Marks: "))
+if student>=90 and student<=100:
+  print("Your Grade is Excelent")
+elif student>=80 and student<=90:
+  print("Your Grade is A")
+elif student>=70 and student<=80:
+  print("Your Grade is B")
+elif student>=60 and student<=70:
+  print("Your Grade is C")
+elif student>=50 and student<=60:
+  print("Your Grade is D")
+else:
+  print("Your Grade is F")
