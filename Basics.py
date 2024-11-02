@@ -59,3 +59,12 @@ print(a_finding_index_position_)
 count_numbers_in_list = [4,6,77,0,9,7,0,56,0,80,0]
 find_zero = count_numbers_in_list.count(0)
 print(find_zero)
+
+#dictionary
+dictionary = {"sara": 50,"victor":60,"andy":70}
+print(dictionary)
+
+#in dictionary finding key and values#dictionary
+dictionary_key_values = {"sara": 50,"victor":60,"andy":70}
+print(dictionary_key_values.keys())
+print(dictionary_key_values.values())
