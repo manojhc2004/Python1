@@ -105,3 +105,15 @@ for i in lists:
   print(i,end=" ")
 else:
   print("\nDone")
+
+#For loop Break and Continue
+for i in range(25):
+  if i == 10:
+    break
+  print(i)
+  
+for i in range(25):
+  if i == 10:
+   continue
+  print(i)
+  
