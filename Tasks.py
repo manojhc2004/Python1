@@ -41,3 +41,8 @@ print(sum(number_in_list))
 numbers_in_list = [4,6,77,0,9,7,0,56,0,80,0]
 find_zero = numbers_in_list.count(0)
 print(find_zero)
+
+#Write a program to create a dictionary of kannada words with values as their english translation. Provide user with an option to look it up!
+dictionary = {"Namskara":"Hello","Dhanyavaad":"Thank you ","Vandanegalu":"Regards","Vidaya":"Bye"}
+word = input("Entet the kannada word :")
+print(dictionary[word])
