@@ -115,3 +115,10 @@ if total_per >= 40 and marks1>33 and marks2>33 and marks3>33:
   print("You have passed the exam")
 else:
   print("You failed")
+
+#Write a program to find the given user name should contains 10 characters
+user = input("Enter your name: ")
+if(len(user))<=10:
+  print("Your name characters are less than 10")
+else:
+  print("Your naem characters are more than 10")
