@@ -166,3 +166,13 @@ for i in range(2,n):
     break
 else:
     print("The number is prime")
+
+#Finding a natural number of givin input
+
+n = int(input("Enter the number :"))
+i = 0
+sum = 0
+while(i<=n):
+  sum = sum + i
+  i = i+1
+print(sum)
