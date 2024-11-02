@@ -116,4 +116,12 @@ for i in range(25):
   if i == 10:
    continue
   print(i)
+
+#Pass statement in loop
+for i in range(1,11): # Incomplete loop
+  pass
   
+i=0
+while(i<11):
+  print(i)
+  i = i +1 # or i + =1 
