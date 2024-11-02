@@ -152,3 +152,8 @@ elif student>=50 and student<=60:
   print("Your Grade is D")
 else:
   print("Your Grade is F")
+
+#Tables
+user = int(input("Enter a number :"))
+for i in range(1,11):
+  print(f"{i} X {i} = {user*i}")
