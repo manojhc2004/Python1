@@ -105,3 +105,13 @@ elif c>a and c>b and c>d:
   print("the greatest number is",c)
 else:
   print("the greatest number is d")
+
+#Write a program to find out wheather a student has passed or failed in an exam if it requires a total of 40% and at least 33% in each subject to pass. Assume 3 subjects and take marks as an input from the user.
+marks1 = int(input("Enter marks of the first subject: "))
+marks2 = int(input("Enter marks of the second subject: "))
+marks3 = int(input("Enter marks of the third subject: "))
+total_per = (marks1 + marks2 + marks3) / 3
+if total_per >= 40:
+  print("You have passed the exam")
+else:
+  print("You failed")
