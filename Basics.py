@@ -71,5 +71,5 @@ print(dictionary_key_values.values())
 
 #dictionary get func
 dictionary_get = {"sara": 50,"victor":60,"andy":70}
-d = dictionary_get.get("sara")
-print(d)
+d_get_func= dictionary_get.get("sara")
+print(d_get_func)
