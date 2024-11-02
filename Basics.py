@@ -68,3 +68,8 @@ print(dictionary)
 dictionary_key_values = {"sara": 50,"victor":60,"andy":70}
 print(dictionary_key_values.keys())
 print(dictionary_key_values.values())
+
+#dictionary get func
+dictionary_get = {"sara": 50,"victor":60,"andy":70}
+d = dictionary_get.get("sara")
+print(d)
