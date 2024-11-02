@@ -82,3 +82,12 @@ a = input("Enter your friends names :")
 b = input("Enter your languge :")
 fav_lang.update({a:b}) 
 print(fav_lang)
+
+#Condition statement
+#if,elif,else
+#Write a program to print yes when the age entered by the user is greater than or equal to 18
+if_elif_else_ = int(input("Enter Your Age :"))
+if(if_elif_else_>=18):
+  print("Yes")
+else:
+  print("No")
