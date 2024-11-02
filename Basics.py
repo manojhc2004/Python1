@@ -125,3 +125,8 @@ i=0
 while(i<11):
   print(i)
   i = i +1 # or i + =1 
+
+#Tables
+user = int(input("Enter a number :"))
+for i in range(1,11):
+  print(f"{i} X {i} = {user*i}")
