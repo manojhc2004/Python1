@@ -78,3 +78,12 @@ print(d_get_func)
 sets = {5,66,445,33,64,33,2}
 sets.add(77)
 print(sets)
+
+#Condition statement
+#if,elif,else
+#Write a program to print yes when the age entered by the user is greater than or equal to 18
+if_elif_else_ = int(input("Enter Your Age :"))
+if(if_elif_else_>=18):
+  print("Yes")
+else:
+  print("No")
