@@ -111,7 +111,7 @@ marks1 = int(input("Enter marks of the first subject: "))
 marks2 = int(input("Enter marks of the second subject: "))
 marks3 = int(input("Enter marks of the third subject: "))
 total_per = (100)*(marks1 + marks2 + marks3) / 300
-if total_per >= 40:
+if total_per >= 40 and marks1>33 and marks2>33 and marks3>33:
   print("You have passed the exam")
 else:
   print("You failed")
