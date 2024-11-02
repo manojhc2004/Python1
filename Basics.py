@@ -93,4 +93,9 @@ while_Loop = 1
 while(while_Loop<6):
   print(while_Loop)
   while_Loop +=1
+      
+#for loops
+for_loops =0
+for x in range(10,101,5):
+  print(x)
   
