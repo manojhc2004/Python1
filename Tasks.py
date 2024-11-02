@@ -91,3 +91,17 @@ if(if_elif_else_>=18):
   print("Yes")
 else:
   print("No")
+
+#Write a program to find the greatest of four number entered by the user.
+a = int(input("Enter the first number: "))
+b = int(input("Enter the second number: "))
+c = int(input("Enter the third number: "))
+d = int(input("Enter the fourth number: "))
+if a>b and a>c and a>d:
+  print(a,"is the greatest number")
+elif b>a and b>c and b>d:
+  print(b ,"the greatest number")
+elif c>a and c>b and c>d:
+  print("the greatest number is",c)
+else:
+  print("the greatest number is d")
