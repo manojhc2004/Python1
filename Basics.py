@@ -87,3 +87,10 @@ if(if_elif_else_>=18):
   print("Yes")
 else:
   print("No")
+      
+#While loops
+while_Loop = 1
+while(while_Loop<6):
+  print(while_Loop)
+  while_Loop +=1
+  
