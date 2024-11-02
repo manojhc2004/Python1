@@ -73,3 +73,8 @@ print(dictionary_key_values.values())
 dictionary_get = {"sara": 50,"victor":60,"andy":70}
 d_get_func= dictionary_get.get("sara")
 print(d_get_func)
+
+#sets
+sets = {5,66,445,33,64,33,2}
+sets.add(77)
+print(sets)
