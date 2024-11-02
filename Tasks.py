@@ -122,3 +122,11 @@ if(len(user))<=10:
   print("Your name characters are less than 10")
 else:
   print("Your naem characters are more than 10")
+
+#Write a program to find the given user name in the list
+names_in_list = ["Alice", "Bob", "Charlie", "David", "Eve"]
+user = input(str("Enter a name : "))
+if(user in names_in_list):
+  print("Your Name In The List")
+else:
+  print("Your Name Not In The List")
