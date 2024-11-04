@@ -186,3 +186,13 @@ def func(a,b,c):
   else:
     return c
 print(func(1,2,3))
+
+
+#Hacker Rank Problem
+#To Find The Runner Up Score Given input
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    
+    print(sorted(list(set(arr)))[-2])
+    
