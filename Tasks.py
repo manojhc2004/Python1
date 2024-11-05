@@ -195,4 +195,17 @@ if __name__ == '__main__':
     arr = map(int, input().split())
     
     print(sorted(list(set(arr)))[-2])
+  
+#List Search Methode
+sets = (1,4,9,4,0,3,66,934,33)
+i = 0
+user = int(input("Enter a number to seach for : "))
+while i < len(sets):
+  print(sets[i],end=" ")
+  if user == sets[i]:
+    print("Found it")
+  else:
+    print("Not found")
+  i +=1
+  
     
