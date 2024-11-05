@@ -207,5 +207,11 @@ while i < len(sets):
   else:
     print("Not found")
   i +=1
-  
+
+#table
+user = int(input("Enter a number :"))
+hod = 1
+while hod <= 10:
+  print(user,"x" ,hod,"=",user*hod)
+  hod +=1  
     
