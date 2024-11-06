@@ -214,4 +214,11 @@ hod = 1
 while hod <= 10:
   print(user,"x" ,hod,"=",user*hod)
   hod +=1  
-    
+
+#string finding in the given input
+string = "m "
+user = input(str("Enter Here :")).lower()
+if string==user:
+    print("no")
+else:
+    print("Yes")
