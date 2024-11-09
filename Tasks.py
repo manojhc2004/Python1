@@ -222,3 +222,10 @@ if string==user:
     print("no")
 else:
     print("Yes")
+
+#The given number is even or odd
+user = int(input("Enter the number :"))
+if user % 2 ==0:
+    print("The number is even",user)
+else:
+    print("The number is odd",user)
