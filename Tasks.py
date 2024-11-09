@@ -229,3 +229,13 @@ if user % 2 ==0:
     print("The number is even",user)
 else:
     print("The number is odd",user)
+
+#Wovles finding given user input
+vowels = "aeiou"
+count = 0
+user = input("Enter a string :").lower()
+for char in vowels:
+    if char in user:
+        count+=1
+print(user)
+print(count)
