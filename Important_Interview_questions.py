@@ -8,3 +8,11 @@ def number(num):
          return("no")
 print(number(user))
 print(number(user2))
+
+#2
+num1 = 30
+num2 = 40
+if num1>num2:
+    print(num1)
+else:
+    print(num2)
