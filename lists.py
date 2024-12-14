@@ -82,3 +82,28 @@ my_list.append(60)
 my_list[0] = 5 #or my_list.insert(0,5)
 my_list.pop(2) #or my_list.remove(30)
 print("Modified List",my_list)
+
+#Practice question
+#take a number of persons 
+#take a persons age and insert in list
+#Seprate the child,adults and seniors
+
+no_of_persons = int(input("enter the of no persons :"))
+all_ages = []
+diff_age = []
+for i in range(no_of_persons):
+    ages = int(input("Enter Your Age :"))
+    all_ages.append(ages)
+child = 0
+adults = 0
+senior = 0
+for dif_ages in all_ages:
+    if dif_ages<=18:
+        child = child +1
+    elif 18 < dif_ages <=65:
+        adults = adults +1
+    else:
+        senior = senior +1
+print("No of Childerns ",child)
+print("No of Adults ",adults)
+print("No of Seniors",senior)
