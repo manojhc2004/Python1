@@ -8,3 +8,10 @@ def cal():
 
 #import my_module as mm
 #mm.cal
+
+#import math fucntion
+import math
+#help(math) #it will show all  operation data s in the math
+#dir(math) #it will show what are the types opertation math fucntion have
+math.sqrt(10)
+math.sin(30)
