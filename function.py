@@ -20,3 +20,14 @@ def details(name, age):
     print(f"your name is{name}, and your age is{age}")
     
 details("Bro",22)
+
+#unpacking variable
+def num():
+    a=3
+    b=2
+    c=5
+    return a,b,c
+n1,n2,n3 = num()
+print(n1)
+print(n2)
+print(n3)
