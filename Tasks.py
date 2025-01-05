@@ -239,3 +239,22 @@ for char in vowels:
         count+=1
 print(user)
 print(count)
+
+def gro():
+  user_items=[]
+  print("----WELCOME TO I GROCERIES----")
+  items = {"milk":20,"bread":30,"eggs":70,"chicken":200,"apples":150}
+  
+  for i in items:
+    print(i)
+  while True:
+    user = input("Enter your items: ").lower()
+    print("Exit for press 4")
+    if user == "4":
+      break
+    else:
+      user_items.append(user)
+  print(user_items)
+
+
+gro()
