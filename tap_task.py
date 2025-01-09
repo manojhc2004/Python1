@@ -16,3 +16,14 @@ user = input("enter a string:")
 ans = user[-2:0:-1]
 print(ans)
 
+#check the given string is palindrome or not
+def string(name):
+    front=name[0:] #manoj
+    rev=name[::-1] #jonam
+    if front == rev:#manoj==jonam  is not palindrome
+        print(f"The given string is palindrome",name)
+    else:
+      print(f"The given string is not a palindrome",name)
+print(string("manoj"))
+
+
