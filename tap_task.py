@@ -40,3 +40,12 @@ mid = s1[:len(s1)//2:]
 rev = s1[len(s1)-1:(len(s1)//2)-1:-1]
 ans = mid+rev
 print(ans)
+
+#check the two string are equal or not with ignoring the case sensitive
+s1 =input("enter a first string:")
+s2 = input("enter a second string")
+if s1.lower() == s2.lower():
+    print("equal")
+else:
+    print("not equal")
+
