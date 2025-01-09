@@ -10,3 +10,9 @@ for i in range(1,len(user)-1):
     #or
 ans = user[1:-1]
 print(ans)
+
+#printing the string in reverse order ans ignoring the last character and first character
+user = input("enter a string:")
+ans = user[-2:0:-1]
+print(ans)
+
