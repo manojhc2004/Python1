@@ -26,4 +26,10 @@ def string(name):
       print(f"The given string is not a palindrome",name)
 print(string("manoj"))
 
-
+#checking the two strings are equal or not
+s1= "python"
+s2 = "JAVA"
+if s1 == s2:
+    print("equal")
+else:
+    print("not equal")
