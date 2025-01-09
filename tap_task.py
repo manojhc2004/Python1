@@ -33,3 +33,10 @@ if s1 == s2:
     print("equal")
 else:
     print("not equal")
+
+#cut the mid value of the string starting to mid ,and reverse the mid value +characters
+s1 = "nan"
+mid = s1[:len(s1)//2:]
+rev = s1[len(s1)-1:(len(s1)//2)-1:-1]
+ans = mid+rev
+print(ans)
