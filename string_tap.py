@@ -42,3 +42,9 @@ for i in lsts:
 name = "bro DUDE"
 name_swap = name.swapcase()
 print(name_swap)
+
+#formate method 
+name = input("enter your name:")
+place = input("enter your place:")
+formate = "hello {},how is the weather in {}".format(name,place)
+print(formate)
