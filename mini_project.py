@@ -30,3 +30,23 @@ def parking():
 
     
 parking()
+
+#print the given string is lower and upper and spceail character and store it in sperate
+def string():
+  lower,upper,special,number = 0,0,0,0
+  user = input("Enter Your String :")
+  for i in user:
+    if i.islower():
+      lower+=1
+    elif i.isupper():
+      upper+=1
+    elif i.isnumeric():
+      number+=1
+    else:
+      special+=1
+      if user =="" or " ":
+        print("Invalid Enter!")
+  print(f"Lower case is :{lower}")
+  print(f"Upper case is :{upper}")
+  print(f"Special case is :{special}")
+  print(f"Number case is :{number}")
