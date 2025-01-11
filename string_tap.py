@@ -48,3 +48,21 @@ name = input("enter your name:")
 place = input("enter your place:")
 formate = "hello {},how is the weather in {}".format(name,place)
 print(formate)
+
+#formate function
+s = input("enter your name").upper()
+my_ans = "HELLO {} HOW ARE YOU {}".format(s,s)
+print(my_ans)
+
+
+#alignment using format function
+s = "{:>5}".format("bro") #it will give the 5 spaces
+print(s)
+s1 = "{:$^}".format(150.00000) #left side = >
+print(s1)              #right side = < , centre = ^ ,centre = ^
+
+#printing the decimal points
+import math
+s ="{:.4f}".format(math.pi)#.no of decimal you need then F ,f means fixed notation
+
+print(s)
